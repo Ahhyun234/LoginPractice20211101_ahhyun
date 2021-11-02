@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity"
-    android:layout_margin="20dp">
+    android:padding="20dp">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -27,6 +27,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textSize="15sp"
         android:text="아이디"
         />
 
@@ -40,6 +41,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textSize="15sp"
         android:text="비밀번호"
         />
 
@@ -76,6 +78,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="로그인"
+            android:layout_marginStart="10dp"
             android:layout_weight="1"
             />
 
